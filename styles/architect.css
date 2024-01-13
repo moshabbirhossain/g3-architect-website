@@ -1,0 +1,12 @@
+/* use work sans fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+nav > {
+    text-decoration: none;
+}
