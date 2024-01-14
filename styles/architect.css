@@ -74,25 +74,25 @@ main{
     max-width: 1440px;
     margin: 50px auto 120px;
 }
-.features{
+.team{
     display: flex;
     align-items: center;
     gap: 75px;
     padding-left: 75px;
     padding-right: 75px;
 }
-/* .features img */
-.features-img{
+/* .team img */
+.team-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.features-title{
+.team-title{
     max-width: 468px;
     font-size: 2.8rem;
     font-weight: 500;
 }
-.features-des{
+.team-des{
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 2rem;
@@ -102,10 +102,10 @@ main{
     header{
         padding: 20px;
     }
-    .features-img{
+    .team-img{
         grid-template-columns: repeat(1, 1fr);
     }
-    nav, .features, .features-img{
+    nav, .team, .team-img{
         flex-direction: column;
     }
 }
@@ -114,10 +114,10 @@ main{
     header{
         padding: 50px 125px;
     }
-    nav, .features{
+    nav, .team{
         flex-direction: column;
     }
-    .features{
+    .team{
         padding-left: 50px;
         padding-right: 50px;
     }
